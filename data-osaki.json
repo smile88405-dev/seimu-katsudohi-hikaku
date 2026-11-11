@@ -1,0 +1,787 @@
+{
+ "議会": "大崎市議会",
+ "年度": "令和7年度",
+ "費目": [
+  "調査研究費",
+  "研修費",
+  "広報費",
+  "広聴費",
+  "要請・陳情活動費",
+  "会議費",
+  "資料作成費",
+  "資料購入費",
+  "人件費",
+  "事務所費"
+ ],
+ "会派": [
+  {
+   "会派名": "新生会",
+   "交付額": 1800000,
+   "支出額": 1775891,
+   "費目別": {
+    "調査研究費": 862878,
+    "研修費": 0,
+    "広報費": 913013,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "創新会",
+   "交付額": 1500000,
+   "支出額": 1500000,
+   "費目別": {
+    "調査研究費": 834621,
+    "研修費": 20000,
+    "広報費": 645379,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "日本共産党大崎市議会議員団",
+   "交付額": 1200000,
+   "支出額": 1200000,
+   "費目別": {
+    "調査研究費": 179805,
+    "研修費": 0,
+    "広報費": 1020195,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "改新クラブ",
+   "交付額": 1200000,
+   "支出額": 458499,
+   "費目別": {
+    "調査研究費": 458499,
+    "研修費": 0,
+    "広報費": 0,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "大志会",
+   "交付額": 1200000,
+   "支出額": 374278,
+   "費目別": {
+    "調査研究費": 374206,
+    "研修費": 0,
+    "広報費": 0,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 72,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "NEXT",
+   "交付額": 900000,
+   "支出額": 900000,
+   "費目別": {
+    "調査研究費": 449334,
+    "研修費": 0,
+    "広報費": 413667,
+    "広聴費": 36999,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  },
+  {
+   "会派名": "公明党",
+   "交付額": 600000,
+   "支出額": 524281,
+   "費目別": {
+    "調査研究費": 322735,
+    "研修費": 0,
+    "広報費": 201546,
+    "広聴費": 0,
+    "要請・陳情活動費": 0,
+    "会議費": 0,
+    "資料作成費": 0,
+    "資料購入費": 0,
+    "人件費": 0,
+    "事務所費": 0
+   }
+  }
+ ],
+ "出納簿": [
+  {
+   "f": "新生会",
+   "d": "4月30日",
+   "t": "タブレット通信費議員負担分 @6名分",
+   "a": 164340,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "5月27日",
+   "t": "山陽・四国視察（岡山県倉敷市・愛媛県西条市・広島県尾道市）航空券・宿泊（2泊）・レンタカー代",
+   "a": 405600,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "7月2日",
+   "t": "山陽・四国視察 自家用車借上料（往路）102km×37円",
+   "a": 3774,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "7月2日",
+   "t": "山陽・四国視察 1日目 高速代1,900円、視察先お土産代（3か所）6,080円、昼食代（6人分）7,800円、視察先駐車場代400円、夕食代（6人分）15,600円、宿泊地駐車場300円",
+   "a": 32080,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "7月3日",
+   "t": "山陽・四国視察 2日目 昼食代（6名分）7,800円、夕食代（6名分）15,600円、宿泊地駐車場代700円",
+   "a": 24100,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "7月4日",
+   "t": "山陽・四国視察 3日目 昼食代（6名分）7,530円、ETC・レンタカー保険・ガソリン代21,730円、仙台空港駐車場代1,980円、高速代1,900円",
+   "a": 33140,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "7月4日",
+   "t": "山陽・四国視察 自家用車借上料（復路）102km×37円",
+   "a": 3774,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"
+  },
+  {
+   "f": "新生会",
+   "d": "12月19日",
+   "t": "東京視察 JR券（古川〜上野）及び宿泊代 5名分",
+   "a": 136000,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "12月19日",
+   "t": "東京視察 JR券（古川〜上野）及び宿泊代 1名分（後藤議長分）",
+   "a": 27200,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "1月5日",
+   "t": "視察先お土産（2か所）",
+   "a": 2480,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "1月7日",
+   "t": "東京視察 1日目 昼食（6名分）6,990円、夕食（6名分）15,600円",
+   "a": 22590,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "1月8日",
+   "t": "東京視察 2日目 昼食（6名分）7,800円",
+   "a": 7800,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "2月5日",
+   "t": "議会報告 リーフレット印刷代（16,000部）、領収書郵送料",
+   "a": 65791,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "3月4日",
+   "t": "議会報告 リーフレット折込料99,462円＋振込手数料660円",
+   "a": 100122,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "3月23日",
+   "t": "議会報告 リーフレット印刷代（40,000部）590,000円＋配送料10,000円＋振込手数料1,100円",
+   "a": 601100,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "新生会",
+   "d": "3月23日",
+   "t": "議会報告 リーフレット折込料146,000円",
+   "a": 146000,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "4月25日",
+   "t": "タブレット通信費代",
+   "a": 136950,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"
+  },
+  {
+   "f": "創新会",
+   "d": "5月1日",
+   "t": "会派ホームページ保守管理代66,000円、振込手数料550円",
+   "a": 66550,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"
+  },
+  {
+   "f": "創新会",
+   "d": "6月5日",
+   "t": "北海道別海町・中標津町・当別町視察 航空券（仙台→新千歳113,350円、新千歳→根室中標津39,750円、新千歳→仙台71,350円、根室中標津→新千歳52,750円）",
+   "a": 277200,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"
+  },
+  {
+   "f": "創新会",
+   "d": "7月2日",
+   "t": "北海道別海町・中標津町・当別町視察 高速道路通行料金2,120円、昼食代6,500円、宿泊代34,000円、夕食代13,000円",
+   "a": 55620,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"
+  },
+  {
+   "f": "創新会",
+   "d": "7月3日",
+   "t": "北海道別海町・中標津町・当別町視察 燃料代2,517円、高速道路通行料金1,330円・320円、宿泊代38,500円、昼食代6,500円、夕食代13,000円、レンタカー代45,540円",
+   "a": 107707,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"
+  },
+  {
+   "f": "創新会",
+   "d": "7月4日",
+   "t": "北海道別海町・中標津町・当別町視察 燃料代2,100円、高速道路通行料金2,120円、駐車料金2,100円、昼食代6,500円、レンタカー代30,470円、車両借り上げ料5,254円（議員駐車場〜仙台空港往復142km）",
+   "a": 48544,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "8月1日",
+   "t": "SNS活用研修会受講費20,000円",
+   "a": 20000,
+   "i": "研修費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "12月24日",
+   "t": "東京都千代田区視察 新幹線乗車券117,600円",
+   "a": 117600,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "1月19日",
+   "t": "東京都千代田区視察 昼食代6,500円、夕食代13,000円",
+   "a": 19500,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "1月20日",
+   "t": "東京都千代田区視察 昼食代6,500円、宿泊代65,000円",
+   "a": 71500,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "創新会",
+   "d": "3月23日",
+   "t": "会派広報紙印刷、折り込み代578,829円",
+   "a": 578829,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "4月4日",
+   "t": "2〜3月議会報告書印刷代",
+   "a": 125017,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "4月9〜16日",
+   "t": "2〜3月議会報告書新聞折込料（10件、計35,550枚）",
+   "a": 127215,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "4月28日",
+   "t": "タブレット通信費負担金",
+   "a": 109560,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "7月14日",
+   "t": "6月議会報告書印刷代とタイムス折込料",
+   "a": 99528,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "8月6日",
+   "t": "会派行政視察 湯沢市、南陽市、尾花沢市への土産代",
+   "a": 7500,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "8月8日",
+   "t": "会派行政視察（湯沢市、南陽市、尾花沢市）8/7湯沢市宿泊代、菊地旅館",
+   "a": 38885,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "8月8日",
+   "t": "会派行政視察（湯沢市、南陽市、尾花沢市）8/8南陽市昼食代",
+   "a": 5200,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "8月8日",
+   "t": "会派行政視察（湯沢市、南陽市、尾花沢市）高速代、湯沢−南陽間、南陽−尾花沢間",
+   "a": 3120,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "8月8日",
+   "t": "会派行政視察（湯沢市、南陽市、尾花沢市）湯沢市、南陽市間往復車借上げ料、37円×420km",
+   "a": 15540,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "10月27日",
+   "t": "9月議会報告印刷代とタイムス折込料",
+   "a": 87890,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "1月9日",
+   "t": "12月議会報告書印刷代",
+   "a": 173113,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "1月16〜17日",
+   "t": "12月議会報告書新聞折込料（10件）",
+   "a": 130598,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "3月2日",
+   "t": "2月議会報告書印刷代",
+   "a": 173113,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"
+  },
+  {
+   "f": "日本共産党大崎市議会議員団",
+   "d": "3月9日",
+   "t": "2月議会報告書新聞折込料 合計106,007円のうち103,721円支出",
+   "a": 103721,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"
+  },
+  {
+   "f": "改新クラブ",
+   "d": "5/15〜16",
+   "t": "調査研究費 東京方面（第17回 日本自治創造学会 研究大会参加）",
+   "a": 51060,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"
+  },
+  {
+   "f": "改新クラブ",
+   "d": "5/20",
+   "t": "タブレット通信費（議員負担分）",
+   "a": 109560,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"
+  },
+  {
+   "f": "改新クラブ",
+   "d": "8/6〜8",
+   "t": "調査研究費 九州方面（唐津市、佐伯市、大崎町）",
+   "a": 297879,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "4月28日",
+   "t": "タブレット通信費代（議員負担分）",
+   "a": 109560,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "10月22日",
+   "t": "印刷代9月分 64円（印刷代32円、用紙代32円）",
+   "a": 64,
+   "i": "資料作成費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "11月4日",
+   "t": "会派視察（兵庫県朝来市11/12、岡山県西粟倉村11/13、滋賀県彦根市11/14）宿泊費・交通費（3名分）214,900円−11,960円（差額返金）",
+   "a": 202940,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "11月11日",
+   "t": "視察先土産代3か所分",
+   "a": 6480,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "11月12日",
+   "t": "会派視察（兵庫県朝来市）高速道路料金3,490円、昼食代2,871円、夕食代7,800円",
+   "a": 14161,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "11月13日",
+   "t": "会派視察（岡山県西粟倉村）高速道路料金6,230円、昼食代3,300円、行政視察受入費・資料代14,300円、レンタカー保険料1,320円、ガソリン代3,465円、夕食代7,800円",
+   "a": 36415,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "11月14日",
+   "t": "会派視察（滋賀県彦根市）タクシー代600円、行政視察受入費用1,500円、昼食代2,550円",
+   "a": 4650,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "大志会",
+   "d": "1月14日",
+   "t": "印刷代12月分 8円（印刷代4円、用紙代4円）",
+   "a": 8,
+   "i": "資料作成費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "4月28日",
+   "t": "タブレット通信費代",
+   "a": 82170,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "5月22日〜23日",
+   "t": "山形視察に伴う経費",
+   "a": 30858,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "6月5日〜8月8日",
+   "t": "九州視察に伴う経費",
+   "a": 336306,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "10月29日",
+   "t": "会派広報発行",
+   "a": 150000,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "11月8日",
+   "t": "会派座談会開催 会場使用料4,950円、お茶菓子代2,049円、講師代30,000円",
+   "a": 36999,
+   "i": "広聴費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "NEXT",
+   "d": "3月11日",
+   "t": "会派広報発行 279,622円のうち263,667円を政務活動費として充当",
+   "a": 263667,
+   "i": "広報費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "5月7日",
+   "t": "タブレット通信費 議員負担分@2名分",
+   "a": 54780,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "5月27日",
+   "t": "会派合同視察研修（岡山県倉敷市・愛媛県西条市・広島県尾道市）航空券、宿泊、レンタカー代",
+   "a": 149400,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "7月2日",
+   "t": "会派合同視察研修 自動車借上げ代 往路60km×37円",
+   "a": 2220,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "7月2日",
+   "t": "会派合同視察研修 高速代930円、お土産代2,020円、昼食代2,600円、駐車場代400円、夕食代5,200円、ホテル駐車場代300円",
+   "a": 11450,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "7月3日",
+   "t": "会派合同視察研修 昼食代2,600円、夕食代5,200円",
+   "a": 7800,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "7月4日",
+   "t": "会派合同視察研修 昼食代2,600円、レンタカー代（ETC・保険・ガソリン代）22,515円、仙台空港駐車場代1,980円、高速代930円",
+   "a": 28025,
+   "i": "調査研究費",
+   "p": 3,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"
+  },
+  {
+   "f": "公明党",
+   "d": "7月4日",
+   "t": "会派合同視察研修 自動車借上げ代 復路60km×37円",
+   "a": 2220,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "12月19日",
+   "t": "会派合同東京視察（1月7日 国土交通省、1月8日 厚生労働省）新幹線（古川〜上野往復）・ホテル代（2名分）",
+   "a": 54400,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "1月5日",
+   "t": "会派合同東京視察 お土産代",
+   "a": 1240,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "1月7日",
+   "t": "会派合同東京視察 お昼代2,400円、夕食代5,200円",
+   "a": 7600,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "1月8日",
+   "t": "会派合同東京視察 お昼代2,600円、駐車場代1,000円",
+   "a": 3600,
+   "i": "調査研究費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "2月11日",
+   "t": "チラシ代（30,000枚）",
+   "a": 89980,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "2月25日",
+   "t": "折込み料 5件（計26,550枚）",
+   "a": 100676,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  },
+  {
+   "f": "公明党",
+   "d": "2月27日",
+   "t": "折込み料 10,890円（3,300枚）",
+   "a": 10890,
+   "i": "広報費",
+   "p": 4,
+   "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"
+  }
+ ]
+}

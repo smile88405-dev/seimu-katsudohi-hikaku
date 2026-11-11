@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大崎市議会 政務活動費 会派比較データベース（令和7年度）</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d2427;--sub:#5d686d;--line:#dcd9d0;--acc:#0b6b5c;--acc2:#c8e4dc;--warn:#b4541a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;font-size:15px;line-height:1.6}
+header{background:var(--acc);color:#fff;padding:20px 20px 0}
+header h1{margin:0;font-size:21px}
+header p{margin:4px 0 14px;font-size:13px;opacity:.9}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px 8px 0 0;font-size:14px;background:rgba(255,255,255,.14)}
+nav a.on{background:var(--bg);color:var(--acc);font-weight:700}
+main{max-width:1080px;margin:0 auto;padding:20px}
+section{display:none}section.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
+h2{font-size:17px;margin:0 0 10px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.kpi b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--sub)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+th{font-size:12px;color:var(--sub);font-weight:600;cursor:default}
+th:first-child,td:first-child{text-align:left}
+th.s{cursor:pointer}th.s:hover{color:var(--acc)}
+tr.me td{background:#fff7e0}
+.bar{display:inline-block;height:10px;background:var(--acc);border-radius:2px;vertical-align:middle}
+.barw{display:inline-block;width:110px;background:#eceae3;border-radius:2px;height:10px;vertical-align:middle;margin-right:6px;text-align:left;line-height:0}
+select,input[type=search]{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;max-width:100%}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.note{font-size:12.5px;color:var(--sub)}
+.warn{font-size:12.5px;color:var(--warn);background:#fbefe4;border-radius:8px;padding:8px 10px;margin-bottom:12px}
+td.h{color:#10302a}
+pre{white-space:pre-wrap;background:#f3f2ec;border-radius:8px;padding:12px;font-size:13px;margin:0 0 10px;font-family:inherit}
+button{font:inherit;padding:7px 14px;border-radius:8px;border:1px solid var(--acc);background:var(--acc);color:#fff;cursor:pointer}
+.hit{border-top:1px solid var(--line);padding:10px 0}
+.hit a{color:var(--acc);font-weight:700}
+mark{background:#ffe27a}
+textarea{width:100%;height:220px;font-size:12px;font-family:monospace;border:1px solid var(--line);border-radius:8px;padding:8px}
+ul{margin:6px 0;padding-left:20px}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<header>
+<p style="margin:0 0 6px;font-size:12px"><a href="index.html" style="color:#fff">← 政務活動費をくらべる（トップへ）</a></p><h1 id="h1"></h1>
+<p id="sub"></p>
+<nav id="nav">
+<a href="#gaiyo">概要</a><a href="#himoku">費目で比べる</a><a href="#kosei">使い方の構成</a><a href="#shokai">照会用の根拠</a><a href="#ryoshu" id="navS"></a><a href="#data">データ・出典</a>
+</nav>
+</header>
+<main>
+
+<section id="gaiyo">
+<div class="kpis" id="kpis"></div>
+<div class="card"><h2>会派別の執行状況</h2>
+<div class="note" style="margin-bottom:8px">見出しをクリックで並べ替え。「議員数換算」は交付額÷<span class="ul"></span>（議員1人あたり年額）で算出した目安。</div>
+<div class="scroll"><table id="t1"></table></div></div>
+</section>
+
+<section id="himoku">
+<div class="card"><h2>費目ごとに会派を比べる</h2>
+<div class="row"><select id="selItem"></select>
+<select id="selMode"><option value="amt">金額</option><option value="share">支出に占める割合</option><option value="per">議員1人あたり（換算）</option></select></div>
+<div class="scroll"><table id="t2"></table></div></div>
+</section>
+
+<section id="kosei">
+<div class="card"><h2>会派 × 費目：支出に占める割合（%）</h2>
+<div class="note" style="margin-bottom:8px">色が濃いほど、その会派の支出に占める割合が大きい。空欄は計上なし。</div>
+<div class="scroll"><table id="t3"></table></div></div>
+</section>
+
+<section id="shokai">
+<div class="card"><h2>議会事務局への照会に添える「他会派の実績」</h2>
+<div class="row"><select id="selItem2"></select><button id="cp1">文章をコピー</button><span class="note" id="cp1m"></span></div>
+<pre id="memo"></pre>
+<div class="note">数値は各会派の令和7年度収支報告書の記載による。按分率や個別の支出内容はこの表からは分からないので、必要に応じて原本PDFで確認する。</div></div>
+</section>
+
+<section id="ryoshu">
+<div class="card"><h2 id="sH"></h2>
+<div class="warn" id="sW"></div>
+<div class="row"><input type="search" id="q" style="flex:1;min-width:220px"><select id="selF"></select><span class="note" id="qn"></span></div>
+<div id="hits" class="scroll"></div></div>
+</section>
+
+<section id="data">
+<div class="card"><h2>このデモでやったこと</h2><ul id="done"></ul></div>
+<div class="card"><h2>出典</h2><ul id="srcl"></ul><div id="srcs" class="note"></div></div>
+<div class="card"><h2>AI可読データ（JSON）</h2>
+<div class="row"><button id="cp2">JSONをコピー</button><span class="note" id="cp2m"></span></div>
+<textarea id="json" readonly></textarea></div>
+</section>
+<p class="note" style="margin-top:8px">非公式の試作です。AIが公開資料を読み取って作成しており、誤りがあり得ます。最終確認は必ず原本（各議会の公開PDF）で行ってください。</p></main>
+<script>
+const D={"items": ["調査研究費", "研修費", "広報費", "広聴費", "要請・陳情活動費", "会議費", "資料作成費", "資料購入費", "人件費", "事務所費"], "factions": [{"name": "新生会", "grant": 1800000, "spent": 1775891, "items": [862878, 0, 913013, 0, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf"}, {"name": "創新会", "grant": 1500000, "spent": 1500000, "items": [834621, 20000, 645379, 0, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf"}, {"name": "日本共産党大崎市議会議員団", "grant": 1200000, "spent": 1200000, "items": [179805, 0, 1020195, 0, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf"}, {"name": "改新クラブ", "grant": 1200000, "spent": 458499, "items": [458499, 0, 0, 0, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf"}, {"name": "大志会", "grant": 1200000, "spent": 374278, "items": [374206, 0, 0, 0, 0, 0, 72, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf"}, {"name": "NEXT", "grant": 900000, "spent": 900000, "items": [449334, 0, 413667, 36999, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf"}, {"name": "公明党", "grant": 600000, "spent": 524281, "items": [322735, 0, 201546, 0, 0, 0, 0, 0, 0, 0], "src": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf"}], "ledger": [{"f": "新生会", "d": "4月30日", "t": "タブレット通信費議員負担分 @6名分", "a": 164340, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "5月27日", "t": "山陽・四国視察（岡山県倉敷市・愛媛県西条市・広島県尾道市）航空券・宿泊（2泊）・レンタカー代", "a": 405600, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "7月2日", "t": "山陽・四国視察 自家用車借上料（往路）102km×37円", "a": 3774, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "7月2日", "t": "山陽・四国視察 1日目 高速代1,900円、視察先お土産代（3か所）6,080円、昼食代（6人分）7,800円、視察先駐車場代400円、夕食代（6人分）15,600円、宿泊地駐車場300円", "a": 32080, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "7月3日", "t": "山陽・四国視察 2日目 昼食代（6名分）7,800円、夕食代（6名分）15,600円、宿泊地駐車場代700円", "a": 24100, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "7月4日", "t": "山陽・四国視察 3日目 昼食代（6名分）7,530円、ETC・レンタカー保険・ガソリン代21,730円、仙台空港駐車場代1,980円、高速代1,900円", "a": 33140, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "7月4日", "t": "山陽・四国視察 自家用車借上料（復路）102km×37円", "a": 3774, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=3"}, {"f": "新生会", "d": "12月19日", "t": "東京視察 JR券（古川〜上野）及び宿泊代 5名分", "a": 136000, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "12月19日", "t": "東京視察 JR券（古川〜上野）及び宿泊代 1名分（後藤議長分）", "a": 27200, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "1月5日", "t": "視察先お土産（2か所）", "a": 2480, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "1月7日", "t": "東京視察 1日目 昼食（6名分）6,990円、夕食（6名分）15,600円", "a": 22590, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "1月8日", "t": "東京視察 2日目 昼食（6名分）7,800円", "a": 7800, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "2月5日", "t": "議会報告 リーフレット印刷代（16,000部）、領収書郵送料", "a": 65791, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "3月4日", "t": "議会報告 リーフレット折込料99,462円＋振込手数料660円", "a": 100122, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "3月23日", "t": "議会報告 リーフレット印刷代（40,000部）590,000円＋配送料10,000円＋振込手数料1,100円", "a": 601100, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "新生会", "d": "3月23日", "t": "議会報告 リーフレット折込料146,000円", "a": 146000, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf#page=4"}, {"f": "創新会", "d": "4月25日", "t": "タブレット通信費代", "a": 136950, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"}, {"f": "創新会", "d": "5月1日", "t": "会派ホームページ保守管理代66,000円、振込手数料550円", "a": 66550, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"}, {"f": "創新会", "d": "6月5日", "t": "北海道別海町・中標津町・当別町視察 航空券（仙台→新千歳113,350円、新千歳→根室中標津39,750円、新千歳→仙台71,350円、根室中標津→新千歳52,750円）", "a": 277200, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"}, {"f": "創新会", "d": "7月2日", "t": "北海道別海町・中標津町・当別町視察 高速道路通行料金2,120円、昼食代6,500円、宿泊代34,000円、夕食代13,000円", "a": 55620, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"}, {"f": "創新会", "d": "7月3日", "t": "北海道別海町・中標津町・当別町視察 燃料代2,517円、高速道路通行料金1,330円・320円、宿泊代38,500円、昼食代6,500円、夕食代13,000円、レンタカー代45,540円", "a": 107707, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=3"}, {"f": "創新会", "d": "7月4日", "t": "北海道別海町・中標津町・当別町視察 燃料代2,100円、高速道路通行料金2,120円、駐車料金2,100円、昼食代6,500円、レンタカー代30,470円、車両借り上げ料5,254円（議員駐車場〜仙台空港往復142km）", "a": 48544, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "創新会", "d": "8月1日", "t": "SNS活用研修会受講費20,000円", "a": 20000, "i": "研修費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "創新会", "d": "12月24日", "t": "東京都千代田区視察 新幹線乗車券117,600円", "a": 117600, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "創新会", "d": "1月19日", "t": "東京都千代田区視察 昼食代6,500円、夕食代13,000円", "a": 19500, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "創新会", "d": "1月20日", "t": "東京都千代田区視察 昼食代6,500円、宿泊代65,000円", "a": 71500, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "創新会", "d": "3月23日", "t": "会派広報紙印刷、折り込み代578,829円", "a": 578829, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf#page=4"}, {"f": "日本共産党大崎市議会議員団", "d": "4月4日", "t": "2〜3月議会報告書印刷代", "a": 125017, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "4月9〜16日", "t": "2〜3月議会報告書新聞折込料（10件、計35,550枚）", "a": 127215, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "4月28日", "t": "タブレット通信費負担金", "a": 109560, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "7月14日", "t": "6月議会報告書印刷代とタイムス折込料", "a": 99528, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "8月6日", "t": "会派行政視察 湯沢市、南陽市、尾花沢市への土産代", "a": 7500, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "8月8日", "t": "会派行政視察（湯沢市、南陽市、尾花沢市）8/7湯沢市宿泊代、菊地旅館", "a": 38885, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "8月8日", "t": "会派行政視察（湯沢市、南陽市、尾花沢市）8/8南陽市昼食代", "a": 5200, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "8月8日", "t": "会派行政視察（湯沢市、南陽市、尾花沢市）高速代、湯沢−南陽間、南陽−尾花沢間", "a": 3120, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "8月8日", "t": "会派行政視察（湯沢市、南陽市、尾花沢市）湯沢市、南陽市間往復車借上げ料、37円×420km", "a": 15540, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "10月27日", "t": "9月議会報告印刷代とタイムス折込料", "a": 87890, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "1月9日", "t": "12月議会報告書印刷代", "a": 173113, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=3"}, {"f": "日本共産党大崎市議会議員団", "d": "1月16〜17日", "t": "12月議会報告書新聞折込料（10件）", "a": 130598, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"}, {"f": "日本共産党大崎市議会議員団", "d": "3月2日", "t": "2月議会報告書印刷代", "a": 173113, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"}, {"f": "日本共産党大崎市議会議員団", "d": "3月9日", "t": "2月議会報告書新聞折込料 合計106,007円のうち103,721円支出", "a": 103721, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf#page=4"}, {"f": "改新クラブ", "d": "5/15〜16", "t": "調査研究費 東京方面（第17回 日本自治創造学会 研究大会参加）", "a": 51060, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"}, {"f": "改新クラブ", "d": "5/20", "t": "タブレット通信費（議員負担分）", "a": 109560, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"}, {"f": "改新クラブ", "d": "8/6〜8", "t": "調査研究費 九州方面（唐津市、佐伯市、大崎町）", "a": 297879, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf#page=3"}, {"f": "大志会", "d": "4月28日", "t": "タブレット通信費代（議員負担分）", "a": 109560, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "10月22日", "t": "印刷代9月分 64円（印刷代32円、用紙代32円）", "a": 64, "i": "資料作成費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "11月4日", "t": "会派視察（兵庫県朝来市11/12、岡山県西粟倉村11/13、滋賀県彦根市11/14）宿泊費・交通費（3名分）214,900円−11,960円（差額返金）", "a": 202940, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "11月11日", "t": "視察先土産代3か所分", "a": 6480, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "11月12日", "t": "会派視察（兵庫県朝来市）高速道路料金3,490円、昼食代2,871円、夕食代7,800円", "a": 14161, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "11月13日", "t": "会派視察（岡山県西粟倉村）高速道路料金6,230円、昼食代3,300円、行政視察受入費・資料代14,300円、レンタカー保険料1,320円、ガソリン代3,465円、夕食代7,800円", "a": 36415, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "11月14日", "t": "会派視察（滋賀県彦根市）タクシー代600円、行政視察受入費用1,500円、昼食代2,550円", "a": 4650, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "大志会", "d": "1月14日", "t": "印刷代12月分 8円（印刷代4円、用紙代4円）", "a": 8, "i": "資料作成費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf#page=3"}, {"f": "NEXT", "d": "4月28日", "t": "タブレット通信費代", "a": 82170, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "NEXT", "d": "5月22日〜23日", "t": "山形視察に伴う経費", "a": 30858, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "NEXT", "d": "6月5日〜8月8日", "t": "九州視察に伴う経費", "a": 336306, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "NEXT", "d": "10月29日", "t": "会派広報発行", "a": 150000, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "NEXT", "d": "11月8日", "t": "会派座談会開催 会場使用料4,950円、お茶菓子代2,049円、講師代30,000円", "a": 36999, "i": "広聴費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "NEXT", "d": "3月11日", "t": "会派広報発行 279,622円のうち263,667円を政務活動費として充当", "a": 263667, "i": "広報費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf#page=3"}, {"f": "公明党", "d": "5月7日", "t": "タブレット通信費 議員負担分@2名分", "a": 54780, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "5月27日", "t": "会派合同視察研修（岡山県倉敷市・愛媛県西条市・広島県尾道市）航空券、宿泊、レンタカー代", "a": 149400, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "7月2日", "t": "会派合同視察研修 自動車借上げ代 往路60km×37円", "a": 2220, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "7月2日", "t": "会派合同視察研修 高速代930円、お土産代2,020円、昼食代2,600円、駐車場代400円、夕食代5,200円、ホテル駐車場代300円", "a": 11450, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "7月3日", "t": "会派合同視察研修 昼食代2,600円、夕食代5,200円", "a": 7800, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "7月4日", "t": "会派合同視察研修 昼食代2,600円、レンタカー代（ETC・保険・ガソリン代）22,515円、仙台空港駐車場代1,980円、高速代930円", "a": 28025, "i": "調査研究費", "p": 3, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=3"}, {"f": "公明党", "d": "7月4日", "t": "会派合同視察研修 自動車借上げ代 復路60km×37円", "a": 2220, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "12月19日", "t": "会派合同東京視察（1月7日 国土交通省、1月8日 厚生労働省）新幹線（古川〜上野往復）・ホテル代（2名分）", "a": 54400, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "1月5日", "t": "会派合同東京視察 お土産代", "a": 1240, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "1月7日", "t": "会派合同東京視察 お昼代2,400円、夕食代5,200円", "a": 7600, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "1月8日", "t": "会派合同東京視察 お昼代2,600円、駐車場代1,000円", "a": 3600, "i": "調査研究費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "2月11日", "t": "チラシ代（30,000枚）", "a": 89980, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "2月25日", "t": "折込み料 5件（計26,550枚）", "a": 100676, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}, {"f": "公明党", "d": "2月27日", "t": "折込み料 10,890円（3,300枚）", "a": 10890, "i": "広報費", "p": 4, "u": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf#page=4"}], "meta": {"h1": "大崎市議会 政務活動費 会派比較データベース", "sub": "令和7年度（2025年4月〜2026年3月）・全7会派 ／ 画像PDFの収支報告書と出納簿を文字データ化したデモ版", "body": "大崎市議会", "unit": 300000, "unitLabel": "30万円", "defItem": 2, "searchLabel": "出納簿を検索", "searchTitle": "出納簿を検索（全7会派・全72件の支出）", "searchPh": "例：視察　折込　タブレット　昼食", "searchWarn": "各会派の出納簿（画像PDF）をAIが読み取って文字にしたもの。金額は会派ごとに費目合計・支出合計と一致することを確認済み。摘要は長いものを一部要約している。費目の振り分けは収支報告書の費目別金額と合うように当てはめたもの。", "done": ["大崎市が公開している令和7年度の収支報告書（7会派、すべて画像PDF）から、収支報告書と出納簿のページを読み取って文字データにした。", "出納簿の支出72件を費目に振り分け、その合計が各会派の収支報告書の費目別金額・支出合計と1円単位で一致することを7会派すべてで確認済み。", "支払伝票と領収書（各PDFの4〜5ページ目以降、計約250ページ）は未処理。", "「議員数換算」は交付額÷30万円（大崎市は議員1人あたり年額30万円）。"], "sources": [["令和7年度政務活動費（大崎市議会）", "https://www.city.osaki.miyagi.jp/shisei/shiseijoho/sigikai/5_1/2/21482.html"]]}};
+const M=D.meta,U=M.unit;document.getElementById('h1').textContent=M.h1;document.getElementById('sub').textContent=M.sub;document.querySelectorAll('.ul').forEach(e=>e.textContent=M.unitLabel);
+const F=D.factions.map(f=>({...f,interest:f.interest||0,income:f.grant+(f.interest||0),left:f.grant+(f.interest||0)-f.spent,rate:f.spent/(f.grant+(f.interest||0)),mem:f.grant/U}));
+const yen=n=>Math.round(n).toLocaleString('ja-JP');
+const pct=x=>(x*100).toFixed(1)+'%';
+const $=id=>document.getElementById(id);
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function bar(v,max){return `<span class="barw"><span class="bar" style="width:${max?Math.max(0,v/max*100):0}%"></span></span>`}
+
+// 概要
+const T={grant:0,spent:0,income:0};F.forEach(f=>{T.grant+=f.grant;T.spent+=f.spent;T.income+=f.income});
+$('kpis').innerHTML=[['交付額の合計',yen(T.grant)+'円'],['支出額の合計',yen(T.spent)+'円'],['使い残し（返還）',yen(T.income-T.spent)+'円'],['全体の執行率',pct(T.spent/T.income)],['会派数',F.length]].map(k=>`<div class="kpi"><span>${k[0]}</span><b>${k[1]}</b></div>`).join('');
+let sortK='grant',sortD=-1;
+const cols=[['name','会派'],['mem','議員数換算'],['grant','交付額'],['spent','支出額'],['left','残余額'],['rate','執行率'],['per','1人あたり支出']];
+function draw1(){
+  const rows=F.map(f=>({...f,per:f.spent/f.mem})).sort((a,b)=>sortK=='name'?0:(a[sortK]-b[sortK])*sortD);
+  $('t1').innerHTML='<tr>'+cols.map(c=>`<th class="s" data-k="${c[0]}">${c[1]}${sortK==c[0]?(sortD<0?' ▼':' ▲'):''}</th>`).join('')+'</tr>'+
+  rows.map(f=>`<tr><td>${f.name}</td><td>${f.mem.toFixed(1)}</td><td>${yen(f.grant)}</td><td>${yen(f.spent)}</td><td>${yen(f.left)}</td><td>${bar(f.rate,1)}${pct(f.rate)}</td><td>${yen(f.per)}</td></tr>`).join('')+
+  `<tr><td><b>合計</b></td><td>${(T.grant/U).toFixed(1)}</td><td>${yen(T.grant)}</td><td>${yen(T.spent)}</td><td>${yen(T.income-T.spent)}</td><td>${bar(T.spent/T.income,1)}${pct(T.spent/T.income)}</td><td>${yen(T.spent/(T.grant/U))}</td></tr>`;
+  $('t1').querySelectorAll('th.s').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==sortK)sortD=-sortD;else{sortK=k;sortD=-1}draw1()});
+}
+draw1();
+
+// 費目比較
+const opts=D.items.map((n,i)=>`<option value="${i}">${n}</option>`).join('');
+$('selItem').innerHTML=opts;$('selItem2').innerHTML=opts;$('selItem').value=M.defItem;$('selItem2').value=M.defItem;
+function draw2(){
+  const i=+$('selItem').value,m=$('selMode').value;
+  const val=f=>m=='amt'?f.items[i]:m=='share'?f.items[i]/f.spent:f.items[i]/f.mem;
+  const rows=[...F].sort((a,b)=>val(b)-val(a)),max=Math.max(...rows.map(val));
+  const fmt=v=>m=='share'?pct(v):yen(v)+'円';
+  $('t2').innerHTML=`<tr><th>会派</th><th>${D.items[i]}（${$('selMode').selectedOptions[0].text}）</th><th>金額</th><th>支出に占める割合</th><th>1人あたり</th></tr>`+
+  rows.map(f=>`<tr><td>${f.name}</td><td style="text-align:left">${bar(val(f),max)}${f.items[i]?fmt(val(f)):'計上なし'}</td><td>${yen(f.items[i])}</td><td>${pct(f.items[i]/f.spent)}</td><td>${yen(f.items[i]/f.mem)}</td></tr>`).join('');
+}
+$('selItem').onchange=draw2;$('selMode').onchange=draw2;draw2();
+
+// 構成ヒートマップ
+$('t3').innerHTML='<tr><th>会派</th>'+D.items.map(n=>`<th>${n}</th>`).join('')+'</tr>'+F.map(f=>'<tr><td>'+f.name+'</td>'+f.items.map(v=>{const s=v/f.spent;return `<td class="h" style="background:rgba(11,107,92,${(s*0.85).toFixed(3)});${s>.55?'color:#fff':''}">${v?(s*100).toFixed(1):''}</td>`}).join('')+'</tr>').join('')+
+'<tr><td><b>全会派</b></td>'+D.items.map((n,i)=>{const s=F.reduce((a,f)=>a+f.items[i],0)/T.spent;return `<td class="h" style="background:rgba(11,107,92,${(s*0.85).toFixed(3)})"><b>${(s*100).toFixed(1)}</b></td>`}).join('')+'</tr>';
+
+// 照会メモ
+function median(a){a=[...a].sort((x,y)=>x-y);const n=a.length;return n?(n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2):0}
+function draw4(){
+  const i=+$('selItem2').value,n=D.items[i];
+  const use=F.filter(f=>f.items[i]>0).sort((a,b)=>b.items[i]-a.items[i]);
+  const tot=use.reduce((a,f)=>a+f.items[i],0);
+  let s=`【${n}】令和7年度の他会派実績（${M.body}・各会派の収支報告書より）\n\n`;
+  s+=`・${n}を計上した会派：${F.length}会派中${use.length}会派\n`;
+  if(use.length){
+    s+=`・計上額の合計：${yen(tot)}円（全会派の支出総額の${pct(tot/T.spent)}）\n`;
+    s+=`・支出に占める割合：最大${pct(Math.max(...use.map(f=>f.items[i]/f.spent)))}、中央値${pct(median(use.map(f=>f.items[i]/f.spent)))}（計上会派のみ）\n`;
+    s+=`・議員1人あたり（交付額÷${M.unitLabel}で換算）：中央値${yen(median(use.map(f=>f.items[i]/f.mem)))}円\n\n`;
+    s+='会派別（金額順）\n'+use.map(f=>`　${f.name}：${yen(f.items[i])}円（支出の${pct(f.items[i]/f.spent)}、1人あたり${yen(f.items[i]/f.mem)}円）`).join('\n');
+    const non=F.filter(f=>!f.items[i]).map(f=>f.name);
+    if(non.length)s+='\n\n計上なし：'+non.join('、');
+  }
+  $('memo').textContent=s;
+}
+$('selItem2').onchange=draw4;draw4();
+function copy(txt,el){navigator.clipboard.writeText(txt).then(()=>{el.textContent='コピーしました'},()=>{el.textContent='コピーできませんでした。手動で選択してください'})}
+$('cp1').onclick=()=>copy($('memo').textContent,$('cp1m'));
+
+// 検索
+$('navS').textContent=M.searchLabel||'';
+if(!D.ledger&&!D.ocr){$('navS').style.display='none'}
+else{
+ $('sH').textContent=M.searchTitle;$('sW').textContent=M.searchWarn;$('q').placeholder=M.searchPh;
+ if(D.ledger){$('selF').innerHTML='<option value="">全会派</option>'+F.map(f=>`<option>${f.name}</option>`).join('')}else $('selF').style.display='none';
+ const search=()=>{
+  const q=$('q').value.trim().split(/\s+/).filter(Boolean);
+  const hl=s=>{let h=esc(s);q.forEach(w=>{h=h.split(esc(w)).join('<mark>'+esc(w)+'</mark>')});return h};
+  if(D.ledger){
+   const ff=$('selF').value;
+   const rows=D.ledger.filter(r=>(!ff||r.f==ff)&&q.every(w=>(r.d+r.t+r.i+r.f).includes(w)));
+   $('qn').textContent=rows.length+'件・計'+yen(rows.reduce((a,r)=>a+r.a,0))+'円';
+   $('hits').innerHTML='<table><tr><th>会派</th><th style="text-align:left">月日</th><th style="text-align:left">費目</th><th style="text-align:left">摘要</th><th>支出額</th><th>原本</th></tr>'+rows.map(r=>`<tr><td>${r.f}</td><td style="text-align:left">${r.d}</td><td style="text-align:left">${r.i}</td><td style="text-align:left;white-space:normal;min-width:260px">${hl(r.t)}</td><td>${yen(r.a)}</td><td><a href="${r.u}">PDF p.${r.p}</a></td></tr>`).join('')+'</table>';
+  }else{
+   if(!q.length){$('hits').innerHTML='';$('qn').textContent=D.ocr.length+'ページ収録';return}
+   const hits=D.ocr.filter(p=>q.every(w=>p.t.includes(w)));
+   $('qn').textContent=hits.length+'ページ該当';
+   $('hits').innerHTML=hits.map(p=>`<div class="hit"><a href="${M.ocrUrl}#page=${p.p}">${M.ocrName} ${p.p}ページ（原本PDF）</a><pre style="margin-top:6px">${hl(p.t.split('\n').filter(l=>q.some(w=>l.includes(w))).slice(0,6).join('\n'))}</pre></div>`).join('')||'<div class="note">該当なし</div>';
+  }};
+ $('q').oninput=search;$('selF').onchange=search;search();
+}
+// データ
+$('done').innerHTML=M.done.map(s=>'<li>'+s+'</li>').join('');
+$('srcl').innerHTML=M.sources.map(s=>`<li><a href="${s[1]}">${s[0]}</a></li>`).join('');
+const withSrc=F.filter(f=>f.src);
+if(withSrc.length)$('srcs').innerHTML='収支報告書の原本PDF：'+withSrc.map(f=>`<a href="${f.src}">${f.name}</a>`).join(' ／ ');
+$('json').value=JSON.stringify({議会:M.body,年度:'令和7年度',費目:D.items,会派:D.factions.map(f=>({会派名:f.name,交付額:f.grant,支出額:f.spent,費目別:Object.fromEntries(D.items.map((n,i)=>[n,f.items[i]]))})),出納簿:D.ledger},null,1);
+$('cp2').onclick=()=>copy($('json').value,$('cp2m'));
+
+// タブ
+function route(){const h=(location.hash||'#gaiyo').slice(1);const id=document.getElementById(h)?h:'gaiyo';
+document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id==id));
+document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+id))}
+addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
