@@ -1,0 +1,2721 @@
+{
+  "generated_at": "2026-11-12T09:10:51+09:00",
+  "summary_checks": [
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "自由民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7jimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7koumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "市民フォーラム仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7forum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7kyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "せんだい自民・参政の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7sendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "立憲民主党仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7rikken-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "仙台維新",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7ishin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "維新の会仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7ishinnokai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "心豊かな社会をつくる会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7kokoro-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "市民の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7shimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2025,
+      "period": "full",
+      "faction": "自由民主党フォーラム",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r7/docs/R7jiminf-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "自由民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6jimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6koumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "市民フォーラム仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6forum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6kyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "せんだい自民・参政の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6sendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "立憲民主党仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6rikken-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "仙台維新",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6ishin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "維新の会仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6ishinnokai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "心豊かな社会をつくる会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6kokoro-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "市民の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6shimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "period": "full",
+      "faction": "自由民主党フォーラム",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r6/docs/R6jiminf-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "自由民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5ajimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5akoumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "市民フォーラム仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5aforum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5akyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "せんだい自民・参政の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5asendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "立憲民主党仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5arikken-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "仙台維新",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5aishin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "心豊かな社会をつくる会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5akokoro-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "市民の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5ashimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選後",
+      "faction": "自由民主党フォーラム",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5_2/docs/R5ajiminf-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "自由民主党（令和5年8月1日付け解散）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5b4-7jimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "自由民主党（令和5年8月1日付け結成）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bjimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "市民フォーラム仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bforum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bkoumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "せんだい自民党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bsendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bkyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "社民フォーラム市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bshamin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "市民の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bshimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "period": "改選前",
+      "faction": "自由民主党フォーラム（令和5年8月1日付け結成）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r5/docs/R5bjiminf-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "自由民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4jimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "市民フォーラム仙台",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4forum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4koumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "せんだい自民党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4sendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4kyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "社民フォーラム市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4shamin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "period": "full",
+      "faction": "市民と未来のために",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r4/docs/R4shimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "自由民主党（令和3年8月26日付け結成）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3jimin_n-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "市民フォーラム仙台（令和3年9月1日付け会派名変更）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3forum-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "公明党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3koumei-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "せんだい自民党（令和3年8月26日付け結成）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3sendai-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "日本共産党仙台市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3kyousan-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "社民フォーラム市議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3shamin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "市民と未来のために",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3shimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "自由民主党（令和3年8月26日付け解散）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3jimin-s.pdf"
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "period": "full",
+      "faction": "蒼雲の会（令和3年8月31日付け解散）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3souun-s.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_shinseikai_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_soushinkai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r8_nihonkyosanto.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_taishikai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "NEXT",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_next_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r7_koumeitou.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_syusei_shinseikai_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_soushinkai3.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_syusei_kyosanto.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_kaishin3.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_taishikai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "NEXT",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_next2_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r6_syusei_komeito.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/shinseikai1_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/soushin_1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/kyosanto_1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/kaishin_1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/taishikai1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "NEXT",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/NEXT1_.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/komeito1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "period": "full",
+      "faction": "会派に属さない（佐藤勝）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/sato1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r4_shinseikai__.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/1009.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/2122.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/2123.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/1014.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "NEXT",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r4_next.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/1019.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "period": "full",
+      "faction": "会派に属さない（佐藤勝）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/2020.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3kaikaku.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3sousinn.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3kyousann.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3sinnseikai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "大清会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3taiseikai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3taisikai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3koumeitou.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "会派に属さない（相澤孝弘）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3aizawatakahiro.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "period": "full",
+      "faction": "会派に属さない（山口壽）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/r3yamagutihisasi1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2soushin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/shinsei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "自民党おおさき市民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2zimin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "大清会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2taishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "会派に属さない（山村康治）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2yamamura.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "period": "full",
+      "faction": "会派に属さない（相澤久義）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/R2aizawa.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10002.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10005.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10008.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10013.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "自民党おおさき市民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10014.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10018.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "大清会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10021.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10022.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "period": "full",
+      "faction": "会派に属さない（山村康治）",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/10025.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-144321.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "大清会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-150036.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "創新会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-150132.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190530-102207.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "新生会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-150237.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "自民党おおさき市民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-150615.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20190524-150703.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-181656.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-181723.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-181841.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-181922.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "清和会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-181951.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-182018.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "おおさき市民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-182047.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "period": "full",
+      "faction": "会派に属さない議員 豊嶋正人",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20180607-182110.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-105520.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-105628.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-105749.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-105854.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "清和会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-105948.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-104551.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "おおさき市民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-104710.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "period": "full",
+      "faction": "会派に属さない議員 豊嶋正人",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/20170621-104832.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_newnet.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_taishi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "清和会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_seiwa.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "会派に属さない議員 佐藤仁一 7月31日に大志会へ異動",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_sato.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "period": "full",
+      "faction": "会派に属さない議員 豊嶋正人",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H27_seimu_toyoshima.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_newnet.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_taishi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "清和会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_seiwa.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "会派に属さない議員 佐藤仁一",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_satojinichi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "period": "full",
+      "faction": "会派に属さない議員 豊嶋正人",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/h26_seimu_toyoshima.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_newnet.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_taishi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_kyosan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "セントラル大崎",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_central.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_shamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_komei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "清和会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_seiwa.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "period": "full",
+      "faction": "会派に属さない議員 佐藤 勝",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H25shushi_fuzoku.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_newnet.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_taishi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "セントラル大崎",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_central.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_shamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "清風会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_seifuu.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "会派に属さない議員 大友文司",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_fuzoku1.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "period": "full",
+      "faction": "会派に属さない議員 佐藤 勝",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H24shuushi_fuzoku2.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "大崎ニューネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_newnet.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "改新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_kaishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_taishi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "改革おおさき",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_kaikaku.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "セントラル大崎",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_central.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_syamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "period": "full",
+      "faction": "会派に属さない議員",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H22_fukaiha.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "大崎セブンネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_oosakisebun.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "グローバルネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_gurobaru.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "至誠クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_shisei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_taisi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "みらい・おおさき",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_mirai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "黎明クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_reimei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "清新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_seishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_syamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H21_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "大崎セブンネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_oosakisebun.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "グローバルネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_gurobaru.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "至誠クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_shisei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_taisi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "みらい・おおさき",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_mirai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "黎明クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_reimei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "清新クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_seishin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_syamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H20_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "グローバルネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_gurobaru.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "大崎セブンネット",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_oosakisebun.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "黎明クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_reimei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "日本共産党大崎市議会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_kyousan.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "大志会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_taisi.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "みらい・おおさき",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_mirai.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "セントラル大崎",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_senntoraru.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "社会民主党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_syamin.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "公明党",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_koumei.pdf"
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "period": "full",
+      "faction": "会派に所属していない議員",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.city.osaki.miyagi.jp/material/files/group/62/H19_mu_sato.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "立憲・無所属クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "21世紀クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "日本維新の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "period": "full",
+      "faction": "無会派議員(1名)",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/61246/080330_02_r6_01_shuusei.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "立憲・無所属クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "21世紀クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "日本維新の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "period": "full",
+      "faction": "無会派議員(1名)",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/070701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "社民フォーラム県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "無所属の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "pre-election",
+      "faction": "無会派議員(2名)",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060213seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/53835/061007_01_r5_1_shuusei.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "立憲・無所属クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "21世紀クラブ",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "period": "post-election",
+      "faction": "日本維新の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/060701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/44599/050704_01_r4_nk_shuusei.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "社民フォーラム県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "無所属の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "period": "full",
+      "faction": "無会派議員(4名)",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/050703seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "自由民主党・県民会議",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/41092/050524_01_r3_jm_shuusei.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "みやぎ県民の声",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/040701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "日本共産党宮城県会議員団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/41092/050704_01_r3_nk_shuusei.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "公明党県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/040701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "社民フォーラム県議団",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/040701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "無所属の会",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/040701seikatsu-kishahatsu.pdf"
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "period": "full",
+      "faction": "無会派議員(2名)",
+      "category_total_matches_expense": true,
+      "claimed_verified": true,
+      "source": "https://www.pref.miyagi.jp/documents/3291/040701seikatsu-kishahatsu.pdf"
+    }
+  ],
+  "coverage": [
+    {
+      "council": "sendai",
+      "year": 2025,
+      "label": "令和7年度",
+      "documents": 183,
+      "downloaded_documents": 183,
+      "complete_documents": 183,
+      "total_pages": 11793,
+      "processed_pages": 11793,
+      "blank_pages": 3,
+      "error_pages": 0
+    },
+    {
+      "council": "sendai",
+      "year": 2024,
+      "label": "令和6年度",
+      "documents": 179,
+      "downloaded_documents": 179,
+      "complete_documents": 179,
+      "total_pages": 11546,
+      "processed_pages": 11546,
+      "blank_pages": 2,
+      "error_pages": 0
+    },
+    {
+      "council": "sendai",
+      "year": 2023,
+      "label": "令和5年度",
+      "documents": 244,
+      "downloaded_documents": 244,
+      "complete_documents": 244,
+      "total_pages": 11143,
+      "processed_pages": 11143,
+      "blank_pages": 4,
+      "error_pages": 0
+    },
+    {
+      "council": "sendai",
+      "year": 2022,
+      "label": "令和4年度",
+      "documents": 214,
+      "downloaded_documents": 214,
+      "complete_documents": 214,
+      "total_pages": 10874,
+      "processed_pages": 10874,
+      "blank_pages": 2,
+      "error_pages": 0
+    },
+    {
+      "council": "sendai",
+      "year": 2021,
+      "label": "令和3年度",
+      "documents": 234,
+      "downloaded_documents": 234,
+      "complete_documents": 234,
+      "total_pages": 10926,
+      "processed_pages": 10926,
+      "blank_pages": 2,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2026,
+      "label": "令和8年度",
+      "documents": 5,
+      "downloaded_documents": 5,
+      "complete_documents": 5,
+      "total_pages": 87,
+      "processed_pages": 87,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2025,
+      "label": "令和7年度",
+      "documents": 18,
+      "downloaded_documents": 18,
+      "complete_documents": 18,
+      "total_pages": 336,
+      "processed_pages": 336,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2024,
+      "label": "令和6年度",
+      "documents": 18,
+      "downloaded_documents": 18,
+      "complete_documents": 18,
+      "total_pages": 639,
+      "processed_pages": 639,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2023,
+      "label": "令和5年度",
+      "documents": 23,
+      "downloaded_documents": 23,
+      "complete_documents": 23,
+      "total_pages": 521,
+      "processed_pages": 521,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2022,
+      "label": "令和4年度",
+      "documents": 22,
+      "downloaded_documents": 22,
+      "complete_documents": 22,
+      "total_pages": 323,
+      "processed_pages": 323,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2021,
+      "label": "令和3年度",
+      "documents": 20,
+      "downloaded_documents": 20,
+      "complete_documents": 20,
+      "total_pages": 72,
+      "processed_pages": 72,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2020,
+      "label": "令和2年度",
+      "documents": 9,
+      "downloaded_documents": 9,
+      "complete_documents": 9,
+      "total_pages": 18,
+      "processed_pages": 18,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2019,
+      "label": "令和1年度",
+      "documents": 26,
+      "downloaded_documents": 26,
+      "complete_documents": 26,
+      "total_pages": 235,
+      "processed_pages": 235,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2018,
+      "label": "平成30年度",
+      "documents": 34,
+      "downloaded_documents": 34,
+      "complete_documents": 34,
+      "total_pages": 221,
+      "processed_pages": 221,
+      "blank_pages": 1,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2017,
+      "label": "平成29年度",
+      "documents": 26,
+      "downloaded_documents": 26,
+      "complete_documents": 26,
+      "total_pages": 234,
+      "processed_pages": 234,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2016,
+      "label": "平成28年度",
+      "documents": 17,
+      "downloaded_documents": 17,
+      "complete_documents": 17,
+      "total_pages": 128,
+      "processed_pages": 128,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2015,
+      "label": "平成27年度",
+      "documents": 17,
+      "downloaded_documents": 17,
+      "complete_documents": 17,
+      "total_pages": 94,
+      "processed_pages": 94,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2014,
+      "label": "平成26年度",
+      "documents": 16,
+      "downloaded_documents": 16,
+      "complete_documents": 16,
+      "total_pages": 66,
+      "processed_pages": 66,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2013,
+      "label": "平成25年度",
+      "documents": 18,
+      "downloaded_documents": 18,
+      "complete_documents": 18,
+      "total_pages": 48,
+      "processed_pages": 48,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2012,
+      "label": "平成24年度",
+      "documents": 20,
+      "downloaded_documents": 20,
+      "complete_documents": 20,
+      "total_pages": 54,
+      "processed_pages": 54,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2010,
+      "label": "平成22年度",
+      "documents": 9,
+      "downloaded_documents": 9,
+      "complete_documents": 9,
+      "total_pages": 42,
+      "processed_pages": 42,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2009,
+      "label": "平成21年度",
+      "documents": 10,
+      "downloaded_documents": 10,
+      "complete_documents": 10,
+      "total_pages": 50,
+      "processed_pages": 50,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2008,
+      "label": "平成20年度",
+      "documents": 10,
+      "downloaded_documents": 10,
+      "complete_documents": 10,
+      "total_pages": 34,
+      "processed_pages": 34,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "osaki",
+      "year": 2007,
+      "label": "平成19年度",
+      "documents": 10,
+      "downloaded_documents": 10,
+      "complete_documents": 10,
+      "total_pages": 33,
+      "processed_pages": 33,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "miyagi",
+      "year": 2025,
+      "label": "令和7年度",
+      "documents": 184,
+      "downloaded_documents": 184,
+      "complete_documents": 184,
+      "total_pages": 22233,
+      "processed_pages": 22233,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "miyagi",
+      "year": 2024,
+      "label": "令和6年度",
+      "documents": 187,
+      "downloaded_documents": 187,
+      "complete_documents": 187,
+      "total_pages": 22119,
+      "processed_pages": 22119,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "miyagi",
+      "year": 2023,
+      "label": "令和5年度",
+      "documents": 194,
+      "downloaded_documents": 194,
+      "complete_documents": 194,
+      "total_pages": 19150,
+      "processed_pages": 19150,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "miyagi",
+      "year": 2022,
+      "label": "令和4年度",
+      "documents": 185,
+      "downloaded_documents": 185,
+      "complete_documents": 185,
+      "total_pages": 19324,
+      "processed_pages": 19324,
+      "blank_pages": 0,
+      "error_pages": 0
+    },
+    {
+      "council": "miyagi",
+      "year": 2021,
+      "label": "令和3年度",
+      "documents": 164,
+      "downloaded_documents": 164,
+      "complete_documents": 164,
+      "total_pages": 17499,
+      "processed_pages": 17499,
+      "blank_pages": 0,
+      "error_pages": 0
+    }
+  ],
+  "limitations": [
+    "OCR is machine transcription, not human proofreading or certified transaction extraction.",
+    "Blank OCR pages require source review; they are not certified blank original pages.",
+    "Exact faction names are preserved; member continuity is not inferred.",
+    "Amended reports must supersede original reports for numerical comparison; both originals remain in the source ledger."
+  ],
+  "orientation_audit": {
+    "required": true,
+    "valid": true,
+    "fully_verified": true,
+    "algorithm_version": "orientation-v1",
+    "algorithm_code_sha256": {
+      "ocr_orientation_pass.py": "bd09b8052abecf3f056018da30bb7990c722ec1741fe0261786d128ffcaa3c47",
+      "ocr_all.py": "3b0c0880bddf927e22b2c01d8fd3817bdccc88c4bf969ebd1cc76148fea73420"
+    },
+    "run_id": "f5b74ef0c5014d9b5b8e79adf0bf72481f85ca49e31547c618e914cc70b1235f",
+    "candidate_pages": 37145,
+    "processed_pages": 37145,
+    "improved_pages": 36303,
+    "unchanged_pages": 842,
+    "excluded_pages": 0,
+    "unexpected_exclusions": 0,
+    "error_pages": 0,
+    "pending_pages": 0,
+    "checked_documents": 1196,
+    "completed_at": "2026-11-12T09:00:31+09:00",
+    "candidate_sha256": "3e0d234237513adbb1ba5d457b45bed58850bbb1451fd41917591abdbd88b2f5",
+    "report_sha256": "12499027b8b3608ef670317919aa39f5481cc9e7e3de30871ec21716778e5f94",
+    "manifest_sha256": {
+      "sendai": "de0cf0af6b3d7538baf5cc75e39436f6ecb6ca06d9aa18ece15fc1ed56711eac",
+      "osaki": "a3075039f27a00f502f3dfbb0fcbf0baa6f335de9ffb89e1b6aaec6aec2a778b",
+      "miyagi": "c2b0fce7b4b0775431efc4737144d6c1dca27527faf97a91b9e791c594c2cd3b"
+    },
+    "summary_sha256": {
+      "sendai": "f2633f1991682dbf8de82034d4ad51e8a7b323720977e7e7efd7bc7864144020",
+      "osaki": "0a2f2d005233253d2e95e1745a388c13c442a562b1e168cb80d7d169b9c1d619",
+      "miyagi": "e0f391979508bf9c4cfc7a9ca2e95473b53eebba229d757a55ca71724e42dc90"
+    },
+    "no_correction_processes_running": true,
+    "complete": true
+  },
+  "manual_supplements": {
+    "required": true,
+    "valid": true,
+    "data_sha256": "26297a4fc5fce0678ce6069f489b629409943c453dcab2b17014a4dcc8793beb",
+    "planned_entries": 1,
+    "applied_entries": 1,
+    "rejected_entries": 0,
+    "pending_entries": 0,
+    "applied_pages": [
+      {
+        "id": "05f5d10e44a9e087",
+        "page": 183,
+        "url": "https://gikai.city.sendai.jp/disclosure/activity/yearly/r3/docs/R3shamin-r-401_600.pdf"
+      }
+    ],
+    "problems": [],
+    "note": "個別の原画像確認による検索用補記。元OCRは保全し、資料全体の人手校正を意味しない。"
+  },
+  "totals": {
+    "documents": 2296,
+    "downloaded_documents": 2296,
+    "complete_documents": 2296,
+    "total_pages": 159842,
+    "processed_pages": 159842,
+    "blank_pages": 14,
+    "error_pages": 0
+  },
+  "all_discovered_pdfs_processed": true,
+  "all_summary_rows_verified": true,
+  "all_required_processing_complete": true
+}

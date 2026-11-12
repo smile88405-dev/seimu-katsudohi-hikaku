@@ -1,201 +1,45 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>宮城県議会 政務活動費 会派比較データベース（令和7年度）</title>
-<style>
-:root{--bg:#f6f5f1;--card:#fff;--ink:#1d2427;--sub:#5d686d;--line:#dcd9d0;--acc:#0b6b5c;--acc2:#c8e4dc;--warn:#b4541a}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;font-size:15px;line-height:1.6}
-header{background:var(--acc);color:#fff;padding:20px 20px 0}
-header h1{margin:0;font-size:21px}
-header p{margin:4px 0 14px;font-size:13px;opacity:.9}
-nav{display:flex;gap:4px;flex-wrap:wrap}
-nav a{color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px 8px 0 0;font-size:14px;background:rgba(255,255,255,.14)}
-nav a.on{background:var(--bg);color:var(--acc);font-weight:700}
-main{max-width:1080px;margin:0 auto;padding:20px}
-section{display:none}section.on{display:block}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px}
-h2{font-size:17px;margin:0 0 10px}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}
-.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
-.kpi b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
-.kpi span{font-size:12px;color:var(--sub)}
-.scroll{overflow-x:auto}
-table{border-collapse:collapse;width:100%;font-size:13.5px}
-th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
-th{font-size:12px;color:var(--sub);font-weight:600;cursor:default}
-th:first-child,td:first-child{text-align:left}
-th.s{cursor:pointer}th.s:hover{color:var(--acc)}
-tr.me td{background:#fff7e0}
-.bar{display:inline-block;height:10px;background:var(--acc);border-radius:2px;vertical-align:middle}
-.barw{display:inline-block;width:110px;background:#eceae3;border-radius:2px;height:10px;vertical-align:middle;margin-right:6px;text-align:left;line-height:0}
-select,input[type=search]{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;max-width:100%}
-.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
-.note{font-size:12.5px;color:var(--sub)}
-.warn{font-size:12.5px;color:var(--warn);background:#fbefe4;border-radius:8px;padding:8px 10px;margin-bottom:12px}
-td.h{color:#10302a}
-pre{white-space:pre-wrap;background:#f3f2ec;border-radius:8px;padding:12px;font-size:13px;margin:0 0 10px;font-family:inherit}
-button{font:inherit;padding:7px 14px;border-radius:8px;border:1px solid var(--acc);background:var(--acc);color:#fff;cursor:pointer}
-.hit{border-top:1px solid var(--line);padding:10px 0}
-.hit a{color:var(--acc);font-weight:700}
-mark{background:#ffe27a}
-textarea{width:100%;height:220px;font-size:12px;font-family:monospace;border:1px solid var(--line);border-radius:8px;padding:8px}
-ul{margin:6px 0;padding-left:20px}
-a{color:var(--acc)}
-</style>
-</head>
-<body>
-<header>
-<p style="margin:0 0 6px;font-size:12px"><a href="index.html" style="color:#fff">← 政務活動費をくらべる（トップへ）</a></p><h1 id="h1"></h1>
-<p id="sub"></p>
-<nav id="nav">
-<a href="#gaiyo">概要</a><a href="#himoku">費目で比べる</a><a href="#kosei">使い方の構成</a><a href="#shokai">照会用の根拠</a><a href="#ryoshu" id="navS"></a><a href="#data">データ・出典</a>
-</nav>
-</header>
-<main>
-
-<section id="gaiyo">
-<div class="kpis" id="kpis"></div>
-<div class="card"><h2>会派別の執行状況</h2>
-<div class="note" style="margin-bottom:8px">見出しをクリックで並べ替え。「議員数換算」は交付額÷<span class="ul"></span>（議員1人あたり年額）で算出した目安。</div>
-<div class="scroll"><table id="t1"></table></div></div>
-</section>
-
-<section id="himoku">
-<div class="card"><h2>費目ごとに会派を比べる</h2>
-<div class="row"><select id="selItem"></select>
-<select id="selMode"><option value="amt">金額</option><option value="share">支出に占める割合</option><option value="per">議員1人あたり（換算）</option></select></div>
-<div class="scroll"><table id="t2"></table></div></div>
-</section>
-
-<section id="kosei">
-<div class="card"><h2>会派 × 費目：支出に占める割合（%）</h2>
-<div class="note" style="margin-bottom:8px">色が濃いほど、その会派の支出に占める割合が大きい。空欄は計上なし。</div>
-<div class="scroll"><table id="t3"></table></div></div>
-</section>
-
-<section id="shokai">
-<div class="card"><h2>議会事務局への照会に添える「他会派の実績」</h2>
-<div class="row"><select id="selItem2"></select><button id="cp1">文章をコピー</button><span class="note" id="cp1m"></span></div>
-<pre id="memo"></pre>
-<div class="note">数値は各会派の令和7年度収支報告書の記載による。按分率や個別の支出内容はこの表からは分からないので、必要に応じて原本PDFで確認する。</div></div>
-</section>
-
-<section id="ryoshu">
-<div class="card"><h2 id="sH"></h2>
-<div class="warn" id="sW"></div>
-<div class="row"><input type="search" id="q" style="flex:1;min-width:220px"><select id="selF"></select><span class="note" id="qn"></span></div>
-<div id="hits" class="scroll"></div></div>
-</section>
-
-<section id="data">
-<div class="card"><h2>このデモでやったこと</h2><ul id="done"></ul></div>
-<div class="card"><h2>出典</h2><ul id="srcl"></ul><div id="srcs" class="note"></div></div>
-<div class="card"><h2>AI可読データ（JSON）</h2>
-<div class="row"><button id="cp2">JSONをコピー</button><span class="note" id="cp2m"></span></div>
-<textarea id="json" readonly></textarea></div>
-</section>
-<p class="note" style="margin-top:8px">非公式の試作です。AIが公開資料を読み取って作成しており、誤りがあり得ます。最終確認は必ず原本（各議会の公開PDF）で行ってください。</p></main>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>政務活動費をくらべる｜仙台・大崎・宮城</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="eyebrow">公開資料から、使い道をたどる</div><h1>政務活動費をくらべる</h1><p>仙台市議会・大崎市議会・宮城県議会。会派別の収支、年度ごとの変化、領収書の本文を原本とともに確認できます。</p><p class="note" style="color:#c4d7cd" id="updated"></p></header>
+<main><div class="notice">非公式の比較資料です。金額は公表集計との照合状況を表示し、領収書の本文は機械読み取りとして区別します。手書き・罫線のある表・印影・黒塗り部分などの誤読や読み落としは原本で確認してください。</div>
+<div id="pipelineStatus" class="notice" role="status"></div><div class="controls"><label>議会 <select id="council"><option value="sendai">仙台市議会</option><option value="osaki">大崎市議会</option><option value="miyagi">宮城県議会</option></select></label><label>対象年度 <select id="year"></select></label></div>
+<nav aria-label="表示内容"><button data-tab="overview" class="active">会派・費目</button><button data-tab="compare">年度を比べる</button><button data-tab="search">PDF本文を探す</button><button data-tab="coverage">資料と読み取り状況</button></nav>
+<section id="overview"><div class="kpis" id="kpis"></div><div class="card"><div class="toolbar"><h2>会派ごとの収支</h2><button id="downloadSummary">表示データをCSV保存</button></div><p class="note" id="yearNotes"></p><div class="scroll"><table id="factions"></table></div></div><div class="card"><h2>費目ごとの使い道</h2><div class="row"><label>費目 <select id="category"></select></label><label>比較方法 <select id="metric"><option value="amount">支出額</option><option value="share">支出に占める割合</option><option value="equivalent">交付額で換算した1人年あたり</option></select></label></div><p class="note">人数換算は、その年度の標準年額が確認できる場合に表示する目安です。年度途中で単価が変わった年や単価が未確認の年は選択できません。実際の所属人数を表すものではありません。費目名は原表のまま表示します。</p><div class="scroll"><table id="categories"></table></div></div><div class="card"><h2>照会に添える根拠</h2><p class="note">上で選んだ費目について、原本にたどれる形で文章を作成します。</p><pre id="inquiry"></pre><button id="copyInquiry">文章をコピー</button><span id="copyStatus" class="note" aria-live="polite"></span></div></section>
+<section id="compare" class="hidden"><div class="card"><div class="toolbar"><h2>年度ごとの変化</h2><div class="row"><button id="last3" class="active">直近3年度</button><button id="allYears">公開全年度</button></div></div><p class="note">改選で分かれた期間は、重複のない期間を年度内で合算します。会派の名称・構成や制度の変更があるため、同じ会派の継続を推定して結び付けません。</p><div class="scroll"><table id="timeline"></table></div></div><div class="card"><h2>費目別の年度比較</h2><select id="compareCategory"></select><p class="note">原表の費目名が一致するものを比較します。資料にない費目や欠損値は「未確認」と表示します。</p><div class="scroll"><table id="categoryTimeline"></table></div></div><div class="card"><h2>会派名を選んで変化を見る</h2><select id="compareFaction"></select><p class="note">原表の名称が完全に一致する行だけを表示します。同名でも所属議員が同じとは限りません。</p><div class="scroll"><table id="factionTimeline"></table></div></div></section>
+<section id="search" class="hidden"><div class="card"><h2>公開PDFの本文検索</h2><p class="note">年度を選び、「本文を読み込む」で検索対象を準備します。結果はPDFのページ単位で表示し、同じ支出の伝票と領収書を別の支出として合計しません。</p><div class="row"><label><input type="checkbox" id="searchAll">この議会の公開全年度を対象にする</label><button id="loadSearch" class="primary">本文を読み込む</button></div><div id="searchStatus" class="note" aria-live="polite"></div><div class="filters"><input id="query" type="search" placeholder="例：通信費 印刷 タブレット（空白区切りでAND検索）" aria-label="PDF検索語"><select id="searchFaction" aria-label="検索する会派"><option value="">全会派</option></select><select id="searchKind" aria-label="資料の種類"><option value="">すべての資料</option><option value="summary">収支報告・集計</option><option value="receipts">領収書・証拠書類</option><option value="activity">活動・実績報告</option><option value="other">その他</option></select></div><div class="toolbar"><span id="hitCount" class="note" aria-live="polite"></span><button id="exportHits">検索結果をCSV保存</button></div><div id="hits"></div><button id="moreHits" class="hidden">さらに表示</button></div></section>
+<section id="coverage" class="hidden"><div class="coveragegrid" id="coverageCards"></div><div class="card"><h2>年度・資料別の処理状況</h2><p class="note">「読み取り完了」は全ページのテキスト抽出またはOCRが実行された状態です。内容の人手校正や、支払先・金額・按分率を支出ごとに確定した状態とは区別します。「文字なし」には白紙・画像・黒塗り・読み取り不能が含まれるため原本確認が必要です。</p><div class="scroll"><table id="coverageTable"></table></div></div><div class="card"><div class="toolbar"><h2>原本PDF一覧</h2><button id="downloadManifest">台帳をCSV保存</button></div><p class="note">原本は各議会が公開するURLへリンクします。取得時のSHA-256とページ数を台帳に記録しています。</p><div class="scroll"><table id="sources"></table></div></div></section>
+<footer>作成：けのひ／畠山紳悟。公表資料をもとにした非公式資料。公開元の更新・訂正・公開終了により、原本リンクや数値が変わる場合があります。<a href="比較データ.csv" download>全年度の比較データ（CSV）</a> ／ <a href="audit.json" download>集計・読み取りの検証記録（JSON）</a></footer></main><script src="app-data.js"></script><script src="app.js"></script>
+<!-- Compatibility entry for the original council URL. -->
 <script>
-const D={"items": ["調査研究費", "研修費", "広聴広報費", "要請陳情等活動費", "会議費", "資料作成費", "資料購入費", "事務所費", "事務費", "人件費"], "factions": [{"name": "自由民主党・県民会議", "grant": 132650000, "spent": 122320238, "items": [47733920, 187520, 24728257, 148574, 303976, 10640, 6093829, 9221620, 10581116, 23310786]}, {"name": "みやぎ県民の声", "grant": 40250000, "spent": 25452534, "items": [5500177, 0, 6184493, 31136, 99802, 54775, 1698817, 2238818, 2839034, 6805482]}, {"name": "日本共産党宮城県会議員団", "grant": 21000000, "spent": 15237437, "items": [534956, 126891, 4910553, 201075, 262714, 1590, 479111, 1315342, 834057, 6571148]}, {"name": "公明党県議団", "grant": 16800000, "spent": 8216759, "items": [3713234, 0, 2125716, 2432, 4848, 0, 849346, 75225, 795958, 650000]}, {"name": "立憲・無所属クラブ", "grant": 12600000, "spent": 10524581, "items": [2891160, 0, 1348551, 30098, 23088, 0, 397925, 1020595, 503164, 4310000]}, {"name": "２１世紀クラブ", "grant": 8400000, "spent": 5904978, "items": [1357151, 65989, 1726689, 7104, 22176, 0, 23400, 1233837, 140862, 1327770]}, {"name": "日本維新の会", "grant": 8400000, "spent": 82500, "items": [0, 0, 82500, 0, 0, 0, 0, 0, 0, 0]}, {"name": "無会派議員（1名・4〜10月分）", "grant": 2450000, "spent": 1724373, "items": [521203, 0, 603305, 0, 2240, 0, 16800, 195333, 35492, 350000]}], "meta": {"h1": "宮城県議会 政務活動費 会派比較データベース", "sub": "令和7年度（2025年4月〜2026年3月）・7会派＋無会派議員1名 ／ 県議会公表の会派別支出額をデータ化したデモ版", "body": "宮城県議会", "unit": 4200000, "unitLabel": "420万円", "defItem": 9, "done": ["宮城県議会事務局の記者発表資料（令和8年7月1日）にある会派別・費目別の支出額一覧をデータにした。", "各会派の費目合計が執行額と一致し、費目ごとの全会派合計も公表の合計欄と1円単位で一致することを確認済み。", "中島源陽議員は令和7年10月までは無会派議員、11月以降は自由民主党・県民会議に計上されている（公表資料の注記どおり）。", "会派ごとの収支報告書・領収書（県議会ホームページで公開）は未処理。支出1件ごとの検索はまだできない。", "「議員数換算」は交付決定額÷420万円（議員1人あたり月35万円×12か月）。"], "sources": [["令和７年度政務活動費収支報告書等について（宮城県議会事務局 記者発表資料）", "https://www.pref.miyagi.jp/documents/3291/080701seikatsu-kishahatsu.pdf"], ["政務活動費（宮城県議会ホームページ）", "https://www.pref.miyagi.jp/site/kengikai/seimukatudouhi.html"]]}};
-const M=D.meta,U=M.unit;document.getElementById('h1').textContent=M.h1;document.getElementById('sub').textContent=M.sub;document.querySelectorAll('.ul').forEach(e=>e.textContent=M.unitLabel);
-const F=D.factions.map(f=>({...f,interest:f.interest||0,income:f.grant+(f.interest||0),left:f.grant+(f.interest||0)-f.spent,rate:f.spent/(f.grant+(f.interest||0)),mem:f.grant/U}));
-const yen=n=>Math.round(n).toLocaleString('ja-JP');
-const pct=x=>(x*100).toFixed(1)+'%';
-const $=id=>document.getElementById(id);
-const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function bar(v,max){return `<span class="barw"><span class="bar" style="width:${max?Math.max(0,v/max*100):0}%"></span></span>`}
+(() => {
+  'use strict';
+  const selector = document.getElementById('council');
+  if (!selector) return;
+  selector.value = "miyagi";
+  selector.dispatchEvent(new Event('change'));
 
-// 概要
-const T={grant:0,spent:0,income:0};F.forEach(f=>{T.grant+=f.grant;T.spent+=f.spent;T.income+=f.income});
-$('kpis').innerHTML=[['交付額の合計',yen(T.grant)+'円'],['支出額の合計',yen(T.spent)+'円'],['使い残し（返還）',yen(T.income-T.spent)+'円'],['全体の執行率',pct(T.spent/T.income)],['会派数',F.length]].map(k=>`<div class="kpi"><span>${k[0]}</span><b>${k[1]}</b></div>`).join('');
-let sortK='grant',sortD=-1;
-const cols=[['name','会派'],['mem','議員数換算'],['grant','交付額'],['spent','支出額'],['left','残余額'],['rate','執行率'],['per','1人あたり支出']];
-function draw1(){
-  const rows=F.map(f=>({...f,per:f.spent/f.mem})).sort((a,b)=>sortK=='name'?0:(a[sortK]-b[sortK])*sortD);
-  $('t1').innerHTML='<tr>'+cols.map(c=>`<th class="s" data-k="${c[0]}">${c[1]}${sortK==c[0]?(sortD<0?' ▼':' ▲'):''}</th>`).join('')+'</tr>'+
-  rows.map(f=>`<tr><td>${f.name}</td><td>${f.mem.toFixed(1)}</td><td>${yen(f.grant)}</td><td>${yen(f.spent)}</td><td>${yen(f.left)}</td><td>${bar(f.rate,1)}${pct(f.rate)}</td><td>${yen(f.per)}</td></tr>`).join('')+
-  `<tr><td><b>合計</b></td><td>${(T.grant/U).toFixed(1)}</td><td>${yen(T.grant)}</td><td>${yen(T.spent)}</td><td>${yen(T.income-T.spent)}</td><td>${bar(T.spent/T.income,1)}${pct(T.spent/T.income)}</td><td>${yen(T.spent/(T.grant/U))}</td></tr>`;
-  $('t1').querySelectorAll('th.s').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(k==sortK)sortD=-sortD;else{sortK=k;sortD=-1}draw1()});
-}
-draw1();
-
-// 費目比較
-const opts=D.items.map((n,i)=>`<option value="${i}">${n}</option>`).join('');
-$('selItem').innerHTML=opts;$('selItem2').innerHTML=opts;$('selItem').value=M.defItem;$('selItem2').value=M.defItem;
-function draw2(){
-  const i=+$('selItem').value,m=$('selMode').value;
-  const val=f=>m=='amt'?f.items[i]:m=='share'?f.items[i]/f.spent:f.items[i]/f.mem;
-  const rows=[...F].sort((a,b)=>val(b)-val(a)),max=Math.max(...rows.map(val));
-  const fmt=v=>m=='share'?pct(v):yen(v)+'円';
-  $('t2').innerHTML=`<tr><th>会派</th><th>${D.items[i]}（${$('selMode').selectedOptions[0].text}）</th><th>金額</th><th>支出に占める割合</th><th>1人あたり</th></tr>`+
-  rows.map(f=>`<tr><td>${f.name}</td><td style="text-align:left">${bar(val(f),max)}${f.items[i]?fmt(val(f)):'計上なし'}</td><td>${yen(f.items[i])}</td><td>${pct(f.items[i]/f.spent)}</td><td>${yen(f.items[i]/f.mem)}</td></tr>`).join('');
-}
-$('selItem').onchange=draw2;$('selMode').onchange=draw2;draw2();
-
-// 構成ヒートマップ
-$('t3').innerHTML='<tr><th>会派</th>'+D.items.map(n=>`<th>${n}</th>`).join('')+'</tr>'+F.map(f=>'<tr><td>'+f.name+'</td>'+f.items.map(v=>{const s=v/f.spent;return `<td class="h" style="background:rgba(11,107,92,${(s*0.85).toFixed(3)});${s>.55?'color:#fff':''}">${v?(s*100).toFixed(1):''}</td>`}).join('')+'</tr>').join('')+
-'<tr><td><b>全会派</b></td>'+D.items.map((n,i)=>{const s=F.reduce((a,f)=>a+f.items[i],0)/T.spent;return `<td class="h" style="background:rgba(11,107,92,${(s*0.85).toFixed(3)})"><b>${(s*100).toFixed(1)}</b></td>`}).join('')+'</tr>';
-
-// 照会メモ
-function median(a){a=[...a].sort((x,y)=>x-y);const n=a.length;return n?(n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2):0}
-function draw4(){
-  const i=+$('selItem2').value,n=D.items[i];
-  const use=F.filter(f=>f.items[i]>0).sort((a,b)=>b.items[i]-a.items[i]);
-  const tot=use.reduce((a,f)=>a+f.items[i],0);
-  let s=`【${n}】令和7年度の他会派実績（${M.body}・各会派の収支報告書より）\n\n`;
-  s+=`・${n}を計上した会派：${F.length}会派中${use.length}会派\n`;
-  if(use.length){
-    s+=`・計上額の合計：${yen(tot)}円（全会派の支出総額の${pct(tot/T.spent)}）\n`;
-    s+=`・支出に占める割合：最大${pct(Math.max(...use.map(f=>f.items[i]/f.spent)))}、中央値${pct(median(use.map(f=>f.items[i]/f.spent)))}（計上会派のみ）\n`;
-    s+=`・議員1人あたり（交付額÷${M.unitLabel}で換算）：中央値${yen(median(use.map(f=>f.items[i]/f.mem)))}円\n\n`;
-    s+='会派別（金額順）\n'+use.map(f=>`　${f.name}：${yen(f.items[i])}円（支出の${pct(f.items[i]/f.spent)}、1人あたり${yen(f.items[i]/f.mem)}円）`).join('\n');
-    const non=F.filter(f=>!f.items[i]).map(f=>f.name);
-    if(non.length)s+='\n\n計上なし：'+non.join('、');
+  const tabs = new Map([
+    ['gaiyo', 'overview'], ['himoku', 'overview'],
+    ['kosei', 'overview'], ['shokai', 'overview'],
+    ['ryoshu', 'search'], ['data', 'coverage']
+  ]);
+  const scrollTargets = new Map([
+    ['himoku', 'categories'], ['kosei', 'categories'],
+    ['shokai', 'inquiry']
+  ]);
+  function applyLegacyHash() {
+    let fragment = '';
+    try { fragment = decodeURIComponent(location.hash.slice(1)); }
+    catch (_) { /* An invalid fragment uses the overview. */ }
+    const tab = tabs.get(fragment) || 'overview';
+    const button = document.querySelector('button[data-tab="' + tab + '"]');
+    if (button) button.click();
+    const target = document.getElementById(scrollTargets.get(fragment) || '');
+    if (target && typeof target.scrollIntoView === 'function') {
+      target.scrollIntoView({block: 'start'});
+    }
   }
-  $('memo').textContent=s;
-}
-$('selItem2').onchange=draw4;draw4();
-function copy(txt,el){navigator.clipboard.writeText(txt).then(()=>{el.textContent='コピーしました'},()=>{el.textContent='コピーできませんでした。手動で選択してください'})}
-$('cp1').onclick=()=>copy($('memo').textContent,$('cp1m'));
-
-// 検索
-$('navS').textContent=M.searchLabel||'';
-if(!D.ledger&&!D.ocr){$('navS').style.display='none'}
-else{
- $('sH').textContent=M.searchTitle;$('sW').textContent=M.searchWarn;$('q').placeholder=M.searchPh;
- if(D.ledger){$('selF').innerHTML='<option value="">全会派</option>'+F.map(f=>`<option>${f.name}</option>`).join('')}else $('selF').style.display='none';
- const search=()=>{
-  const q=$('q').value.trim().split(/\s+/).filter(Boolean);
-  const hl=s=>{let h=esc(s);q.forEach(w=>{h=h.split(esc(w)).join('<mark>'+esc(w)+'</mark>')});return h};
-  if(D.ledger){
-   const ff=$('selF').value;
-   const rows=D.ledger.filter(r=>(!ff||r.f==ff)&&q.every(w=>(r.d+r.t+r.i+r.f).includes(w)));
-   $('qn').textContent=rows.length+'件・計'+yen(rows.reduce((a,r)=>a+r.a,0))+'円';
-   $('hits').innerHTML='<table><tr><th>会派</th><th style="text-align:left">月日</th><th style="text-align:left">費目</th><th style="text-align:left">摘要</th><th>支出額</th><th>原本</th></tr>'+rows.map(r=>`<tr><td>${r.f}</td><td style="text-align:left">${r.d}</td><td style="text-align:left">${r.i}</td><td style="text-align:left;white-space:normal;min-width:260px">${hl(r.t)}</td><td>${yen(r.a)}</td><td><a href="${r.u}">PDF p.${r.p}</a></td></tr>`).join('')+'</table>';
-  }else{
-   if(!q.length){$('hits').innerHTML='';$('qn').textContent=D.ocr.length+'ページ収録';return}
-   const hits=D.ocr.filter(p=>q.every(w=>p.t.includes(w)));
-   $('qn').textContent=hits.length+'ページ該当';
-   $('hits').innerHTML=hits.map(p=>`<div class="hit"><a href="${M.ocrUrl}#page=${p.p}">${M.ocrName} ${p.p}ページ（原本PDF）</a><pre style="margin-top:6px">${hl(p.t.split('\n').filter(l=>q.some(w=>l.includes(w))).slice(0,6).join('\n'))}</pre></div>`).join('')||'<div class="note">該当なし</div>';
-  }};
- $('q').oninput=search;$('selF').onchange=search;search();
-}
-// データ
-$('done').innerHTML=M.done.map(s=>'<li>'+s+'</li>').join('');
-$('srcl').innerHTML=M.sources.map(s=>`<li><a href="${s[1]}">${s[0]}</a></li>`).join('');
-const withSrc=F.filter(f=>f.src);
-if(withSrc.length)$('srcs').innerHTML='収支報告書の原本PDF：'+withSrc.map(f=>`<a href="${f.src}">${f.name}</a>`).join(' ／ ');
-$('json').value=JSON.stringify({議会:M.body,年度:'令和7年度',費目:D.items,会派:D.factions.map(f=>({会派名:f.name,交付額:f.grant,支出額:f.spent,費目別:Object.fromEntries(D.items.map((n,i)=>[n,f.items[i]]))})),出納簿:D.ledger},null,1);
-$('cp2').onclick=()=>copy($('json').value,$('cp2m'));
-
-// タブ
-function route(){const h=(location.hash||'#gaiyo').slice(1);const id=document.getElementById(h)?h:'gaiyo';
-document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id==id));
-document.querySelectorAll('#nav a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')=='#'+id))}
-addEventListener('hashchange',route);route();
+  addEventListener('hashchange', applyLegacyHash);
+  applyLegacyHash();
+})();
 </script>
-</body>
-</html>
+</body></html>
